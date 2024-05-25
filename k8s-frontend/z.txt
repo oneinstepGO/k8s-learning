@@ -1,7 +1,7 @@
 cd k8s-frontend
 -- build and push image
-docker build -t henryxy/k8s-frontend:1.0 .
-docker push henryxy/k8s-frontend:1.0
+docker build -t <your_docker_hub_username>/k8s-frontend:1.0 .
+docker push <your_docker_hub_username>/k8s-frontend:1.0
 
 -- create deployment
 kubectl apply -f frontend-deployment.yaml

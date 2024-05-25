@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: henryxy/k8s-frontend:2.0
+          image: <your_docker_hub_username>/k8s-frontend:1.0
           ports:
             - containerPort: 80
           env:

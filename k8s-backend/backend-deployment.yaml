@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: henryxy/k8s-backend:2.0
+          image: <your_docker_hub_username>/k8s-backend:1.0
           ports:
             - containerPort: 8080
           env:
